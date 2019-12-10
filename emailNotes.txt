@@ -1,0 +1,40 @@
+Box shadow doesn't work in most of the email providers (aol, gmail or yahoo).
+Use border instead.
+Trade this below
+border-radius: 4px;-webkit-box-shadow: 0px 0px 2px 1.3px rgba(0,0,0,0.17);
+-moz-box-shadow: 0px 0px 2px 1.3px rgba(0,0,0,0.17);
+ box-shadow: 0px 0px 2px 1.3px rgba(0,0,0,0.17);
+
+ For this below
+ border: 2px solid rgba(0, 0, 0, 0.17);
+ or This
+ border-radius: 4px;
+    border: 1.4px solid rgba(95, 95, 95, 0.27);
+
+****  BACKGROUND IMAGES DO NOT WORK ON TABLE TAG..
+ONLY TD TAG ****
+
+
+background image for table snippet
+<table border="0" align="center" cellspacing="0" cellpadding="0" width="100%" style="
+  padding: 0 16px 0 16px; background: red;
+  background-image: url('https://cdn.vox-cdn.com/thumbor/rQdP_2gdCKFQU7nPcKK8cuX2BDI=/0x0:1898x1273/1200x800/filters:focal(833x627:1135x929)/cdn.vox-cdn.com/uploads/chorus_image/image/64128012/airbnb_luxe_announcement.0.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; max-width: 100%;
+    height: 100%;"></table>
+
+**** RGBA DOES NOT WORKIN EMAIL.. ****
+**** INSTEAD USE HEXADECIMAL COLORS ****
+For ex. #ffffff instead of rgba(255,255,255,1) for white and
+#000000 instead of rgba(0,0,0,1) for black
+use website
+https://bl.ocks.org/njvack/02ad8efcb0d552b0230d
+to convert  rgba to hex and vice versa
+or BETTER YET
+Use google developer tools color pallete selctor.. Works Way better.
+
+
+Footer Button
+EXPLORE WITH 5% OFF
+RGBA(95, 95, 95, 0.27) is changed to #5c5c5c
