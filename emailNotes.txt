@@ -38,3 +38,5 @@ Use google developer tools color pallete selctor.. Works Way better.
 Footer Button
 EXPLORE WITH 5% OFF
 RGBA(95, 95, 95, 0.27) is changed to #5c5c5c
+
+WRITING EXTRA NOTES TRYING TO FIGUREOUT HOW GIT WORKS AGAIN !!
